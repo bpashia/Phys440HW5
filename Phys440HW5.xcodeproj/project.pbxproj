@@ -13,10 +13,34 @@
 		5E28E4DD27DBD2D7001675C1 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E28E4DC27DBD2D7001675C1 /* Tests_macOSLaunchTests.swift */; };
 		5E28E4DE27DBD2D7001675C1 /* Phys440HW5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E28E4B627DBD2D2001675C1 /* Phys440HW5App.swift */; };
 		5E28E4DF27DBD2D7001675C1 /* Phys440HW5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E28E4B627DBD2D2001675C1 /* Phys440HW5App.swift */; };
-		5E28E4E027DBD2D7001675C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E28E4B727DBD2D2001675C1 /* ContentView.swift */; };
-		5E28E4E127DBD2D7001675C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E28E4B727DBD2D2001675C1 /* ContentView.swift */; };
 		5E28E4E227DBD2D7001675C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E28E4B827DBD2D6001675C1 /* Assets.xcassets */; };
 		5E28E4E327DBD2D7001675C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E28E4B827DBD2D6001675C1 /* Assets.xcassets */; };
+		5ED283BD27F612A800784048 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = 5ED283BC27F612A800784048 /* CorePlot */; };
+		5ED283BF27F6154100784048 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283BE27F6154100784048 /* PlotDataClass.swift */; };
+		5ED283C027F6154100784048 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283BE27F6154100784048 /* PlotDataClass.swift */; };
+		5ED283C527F6155900784048 /* SquarePotential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283C427F6155900784048 /* SquarePotential.swift */; };
+		5ED283C627F6155900784048 /* SquarePotential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283C427F6155900784048 /* SquarePotential.swift */; };
+		5ED283C827F6156000784048 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283C727F6156000784048 /* CorePlot.swift */; };
+		5ED283C927F6156000784048 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283C727F6156000784048 /* CorePlot.swift */; };
+		5ED283CE27F6156C00784048 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283CD27F6156C00784048 /* TextView.swift */; };
+		5ED283CF27F6156C00784048 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283CD27F6156C00784048 /* TextView.swift */; };
+		5ED283D127F6157400784048 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283D027F6157400784048 /* CalculatePlotData.swift */; };
+		5ED283D227F6157400784048 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283D027F6157400784048 /* CalculatePlotData.swift */; };
+		5ED283D427F6158500784048 /* ContentViewText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283D327F6158500784048 /* ContentViewText.swift */; };
+		5ED283D527F6158500784048 /* ContentViewText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283D327F6158500784048 /* ContentViewText.swift */; };
+		5ED283D727F6159000784048 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283D627F6159000784048 /* operators.swift */; };
+		5ED283D827F6159000784048 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283D627F6159000784048 /* operators.swift */; };
+		5ED283DA27F6159700784048 /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283D927F6159700784048 /* TextExportDocument.swift */; };
+		5ED283DB27F6159700784048 /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283D927F6159700784048 /* TextExportDocument.swift */; };
+		5ED283DD27F6159F00784048 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283DC27F6159F00784048 /* ChangingPlotParameters.swift */; };
+		5ED283DE27F6159F00784048 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283DC27F6159F00784048 /* ChangingPlotParameters.swift */; };
+		5ED283EA27F6171A00784048 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = 5ED283E927F6171A00784048 /* CorePlot */; };
+		5ED283EC27F6381500784048 /* MatrixFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283EB27F6381500784048 /* MatrixFunctions.swift */; };
+		5ED283ED27F6381500784048 /* MatrixFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283EB27F6381500784048 /* MatrixFunctions.swift */; };
+		5ED283EF27F65D7900784048 /* MatrixMechanics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283EE27F65D7900784048 /* MatrixMechanics.swift */; };
+		5ED283F027F65D7900784048 /* MatrixMechanics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283EE27F65D7900784048 /* MatrixMechanics.swift */; };
+		5ED283F227F75A5700784048 /* ContentViewHW5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283F127F75A5600784048 /* ContentViewHW5.swift */; };
+		5ED283F327F75A5700784048 /* ContentViewHW5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED283F127F75A5600784048 /* ContentViewHW5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +62,6 @@
 
 /* Begin PBXFileReference section */
 		5E28E4B627DBD2D2001675C1 /* Phys440HW5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phys440HW5App.swift; sourceTree = "<group>"; };
-		5E28E4B727DBD2D2001675C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E28E4B827DBD2D6001675C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E28E4BD27DBD2D6001675C1 /* Phys440HW5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phys440HW5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E28E4C327DBD2D6001675C1 /* Phys440HW5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phys440HW5.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +72,18 @@
 		5E28E4D627DBD2D7001675C1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E28E4DA27DBD2D7001675C1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		5E28E4DC27DBD2D7001675C1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		5ED283BE27F6154100784048 /* PlotDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotDataClass.swift; sourceTree = "<group>"; };
+		5ED283C427F6155900784048 /* SquarePotential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquarePotential.swift; sourceTree = "<group>"; };
+		5ED283C727F6156000784048 /* CorePlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorePlot.swift; sourceTree = "<group>"; };
+		5ED283CD27F6156C00784048 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		5ED283D027F6157400784048 /* CalculatePlotData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatePlotData.swift; sourceTree = "<group>"; };
+		5ED283D327F6158500784048 /* ContentViewText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewText.swift; sourceTree = "<group>"; };
+		5ED283D627F6159000784048 /* operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = operators.swift; sourceTree = "<group>"; };
+		5ED283D927F6159700784048 /* TextExportDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextExportDocument.swift; sourceTree = "<group>"; };
+		5ED283DC27F6159F00784048 /* ChangingPlotParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangingPlotParameters.swift; sourceTree = "<group>"; };
+		5ED283EB27F6381500784048 /* MatrixFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixFunctions.swift; sourceTree = "<group>"; };
+		5ED283EE27F65D7900784048 /* MatrixMechanics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixMechanics.swift; sourceTree = "<group>"; };
+		5ED283F127F75A5600784048 /* ContentViewHW5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewHW5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED283BD27F612A800784048 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED283EA27F6171A00784048 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,15 +128,27 @@
 				5E28E4CD27DBD2D6001675C1 /* Tests iOS */,
 				5E28E4D927DBD2D7001675C1 /* Tests macOS */,
 				5E28E4BE27DBD2D6001675C1 /* Products */,
+				5ED283E827F6171900784048 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5E28E4B527DBD2D2001675C1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5ED283DC27F6159F00784048 /* ChangingPlotParameters.swift */,
+				5ED283D927F6159700784048 /* TextExportDocument.swift */,
+				5ED283D627F6159000784048 /* operators.swift */,
+				5ED283D327F6158500784048 /* ContentViewText.swift */,
+				5ED283D027F6157400784048 /* CalculatePlotData.swift */,
+				5ED283CD27F6156C00784048 /* TextView.swift */,
+				5ED283C727F6156000784048 /* CorePlot.swift */,
+				5ED283C427F6155900784048 /* SquarePotential.swift */,
+				5ED283BE27F6154100784048 /* PlotDataClass.swift */,
 				5E28E4B627DBD2D2001675C1 /* Phys440HW5App.swift */,
-				5E28E4B727DBD2D2001675C1 /* ContentView.swift */,
 				5E28E4B827DBD2D6001675C1 /* Assets.xcassets */,
+				5ED283EB27F6381500784048 /* MatrixFunctions.swift */,
+				5ED283EE27F65D7900784048 /* MatrixMechanics.swift */,
+				5ED283F127F75A5600784048 /* ContentViewHW5.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -141,6 +190,13 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		5ED283E827F6171900784048 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +213,9 @@
 			dependencies = (
 			);
 			name = "Phys440HW5 (iOS)";
+			packageProductDependencies = (
+				5ED283BC27F612A800784048 /* CorePlot */,
+			);
 			productName = "Phys440HW5 (iOS)";
 			productReference = 5E28E4BD27DBD2D6001675C1 /* Phys440HW5.app */;
 			productType = "com.apple.product-type.application";
@@ -174,6 +233,9 @@
 			dependencies = (
 			);
 			name = "Phys440HW5 (macOS)";
+			packageProductDependencies = (
+				5ED283E927F6171A00784048 /* CorePlot */,
+			);
 			productName = "Phys440HW5 (macOS)";
 			productReference = 5E28E4C327DBD2D6001675C1 /* Phys440HW5.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +311,9 @@
 				Base,
 			);
 			mainGroup = 5E28E4B027DBD2D1001675C1;
+			packageReferences = (
+				5ED283BB27F612A800784048 /* XCRemoteSwiftPackageReference "core-plot" */,
+			);
 			productRefGroup = 5E28E4BE27DBD2D6001675C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,8 +364,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E28E4E027DBD2D7001675C1 /* ContentView.swift in Sources */,
+				5ED283D127F6157400784048 /* CalculatePlotData.swift in Sources */,
+				5ED283EC27F6381500784048 /* MatrixFunctions.swift in Sources */,
+				5ED283EF27F65D7900784048 /* MatrixMechanics.swift in Sources */,
+				5ED283CE27F6156C00784048 /* TextView.swift in Sources */,
+				5ED283BF27F6154100784048 /* PlotDataClass.swift in Sources */,
+				5ED283C827F6156000784048 /* CorePlot.swift in Sources */,
+				5ED283F227F75A5700784048 /* ContentViewHW5.swift in Sources */,
+				5ED283C527F6155900784048 /* SquarePotential.swift in Sources */,
 				5E28E4DE27DBD2D7001675C1 /* Phys440HW5App.swift in Sources */,
+				5ED283DA27F6159700784048 /* TextExportDocument.swift in Sources */,
+				5ED283D727F6159000784048 /* operators.swift in Sources */,
+				5ED283D427F6158500784048 /* ContentViewText.swift in Sources */,
+				5ED283DD27F6159F00784048 /* ChangingPlotParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +384,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E28E4E127DBD2D7001675C1 /* ContentView.swift in Sources */,
+				5ED283D227F6157400784048 /* CalculatePlotData.swift in Sources */,
+				5ED283ED27F6381500784048 /* MatrixFunctions.swift in Sources */,
+				5ED283F027F65D7900784048 /* MatrixMechanics.swift in Sources */,
+				5ED283CF27F6156C00784048 /* TextView.swift in Sources */,
+				5ED283C027F6154100784048 /* PlotDataClass.swift in Sources */,
+				5ED283C927F6156000784048 /* CorePlot.swift in Sources */,
+				5ED283F327F75A5700784048 /* ContentViewHW5.swift in Sources */,
+				5ED283C627F6155900784048 /* SquarePotential.swift in Sources */,
 				5E28E4DF27DBD2D7001675C1 /* Phys440HW5App.swift in Sources */,
+				5ED283DB27F6159700784048 /* TextExportDocument.swift in Sources */,
+				5ED283D827F6159000784048 /* operators.swift in Sources */,
+				5ED283D527F6158500784048 /* ContentViewText.swift in Sources */,
+				5ED283DE27F6159F00784048 /* ChangingPlotParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -693,6 +780,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5ED283BB27F612A800784048 /* XCRemoteSwiftPackageReference "core-plot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/core-plot/core-plot";
+			requirement = {
+				branch = "release-2.4";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5ED283BC27F612A800784048 /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5ED283BB27F612A800784048 /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+		5ED283E927F6171A00784048 /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5ED283BB27F612A800784048 /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5E28E4B127DBD2D1001675C1 /* Project object */;
 }
